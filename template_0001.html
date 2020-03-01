@@ -46,7 +46,21 @@
       -ms-text-size-adjust: 100%;
       }
       img.max-width {
+      	margin: 0 0px 10px 10px;
+      	width: 40%;
       max-width: 100% !important;
+      height: auto !important;
+      display: block;
+      float: right;
+      }
+      @media only screen and (max-width:480px) {
+      	img.max-width {
+            display:block;
+            float:none;
+            margin:0 auto 20px !important;
+            width: 100%;
+            max-width: 100% !important;
+        }
       }
       .column.of-2 {
       width: 50%;
@@ -76,10 +90,6 @@
       table.wrapper-mobile {
       width: 100% !important;
       table-layout: fixed;
-      }
-      img.max-width {
-      height: auto !important;
-      max-width: 100% !important;
       }
       a.bulletproof-button {
       display: block !important;
@@ -209,6 +219,7 @@
                                                     </tr>
                                                   </tbody>
                                                 </table>
+                                                <!-- Divider... -->
                                                 <!-- We don't really need this divider, however, box-shadow doesn't appear for the Conference's Title... -->
                                                 <table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="43d87a6a-0c4c-4fe8-a62b-ac3822a1dfaa">
                                                   <tbody>
@@ -225,11 +236,12 @@
                                                     </tr>
                                                   </tbody>
                                                 </table>
+                                                <!-- Conference-1 -->
                                                 <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" role="module" data-type="columns" style="padding:10px 20px 10px 20px;" bgcolor="#FCFCFC">
                                                   <tbody>
                                                     <tr role="module-content">
                                                       <td height="100%" valign="top">
-                                                        <table class="column" width="272" style="width:272px; border-spacing:0; border-collapse:collapse; margin:0px 8px 0px 0px;" cellpadding="0" cellspacing="0" align="left" border="0" bgcolor="">
+                                                        <table class="column" width="100%" style="border-spacing:0; border-collapse:collapse; margin:0px 8px 0px 0px;" cellpadding="0" cellspacing="0" align="left" border="0" bgcolor="">
                                                           <tbody>
                                                             <tr>
                                                               <td style="padding:0px;margin:0px;border-spacing:0;">
@@ -238,50 +250,14 @@
                                                                     <tr>
                                                                       <td style="padding:0px 0px 0px 0px; line-height:20px; text-align:inherit; background-color:#FCFCFC;" height="100%" valign="top" bgcolor="#FCFCFC" role="module-content">
                                                                         <div>
+                                                                        	<img class="max-width" border="0" style="color:#000000; font-family:Helvetica, arial, sans-serif; font-size:16px;" alt="" align="right" data-proportionally-constrained="true" data-responsive="true" src="http://cdn.mcauto-images-production.sendgrid.net/8697036c2156fec8/f1a18280-132f-48a0-bff2-097c6dcdb41b/649x649.png">
                                                                           <div style="font-family: inherit; text-align: inherit"><span style="font-size: 20px">I can't do that for you, Dave!</span></div>
                                                                           <div></div>
-                                                                        </div>
-                                                                      </td>
-                                                                    </tr>
-                                                                  </tbody>
-                                                                </table>
-                                                                <table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="c4d57332-3a1f-4d28-9477-3c9df03943ae" data-mc-module-version="2019-10-22">
-                                                                  <tbody>
-                                                                    <tr>
-                                                                      <td style="padding:0px 0px 0px 0px; line-height:16px; text-align:inherit; background-color:#FCFCFC;" height="100%" valign="top" bgcolor="#FCFCFC" role="module-content">
-                                                                        <div>
                                                                           <div style="font-family: inherit; text-align: inherit"><span style="color: #af2424">by Asim Hussain</span></div>
                                                                           <div></div>
-                                                                        </div>
-                                                                      </td>
-                                                                    </tr>
-                                                                  </tbody>
-                                                                </table>
-                                                                <table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="nYMysPHCHrrzTCLhYdDT4J" data-mc-module-version="2019-10-22">
-                                                                  <tbody>
-                                                                    <tr>
-                                                                      <td style="padding:4px 0px 10px 0px; line-height:20px; text-align:inherit; background-color:#FCFCFC;" height="100%" valign="top" bgcolor="#FCFCFC" role="module-content">
-                                                                        <div>
                                                                           <div style="font-family: inherit; text-align: inherit"><span style="color: #757575">Asim presented the current state of AI in JavaScript. He presented examples of how AI is currently being used in JavaScript, several of which can be found here. This is an exciting area especially since the tensorflow JavaScript library exists and makes it possible to easily develop and train machine learning models in JavaScript, and deploy it to the browser or on Node.js.</span></div>
                                                                           <div></div>
                                                                         </div>
-                                                                      </td>
-                                                                    </tr>
-                                                                  </tbody>
-                                                                </table>
-                                                              </td>
-                                                            </tr>
-                                                          </tbody>
-                                                        </table>
-                                                        <table class="column" width="272" style="width:272px; border-spacing:0; border-collapse:collapse; margin:0px 0px 0px 8px;" cellpadding="0" cellspacing="0" align="left" border="0" bgcolor="">
-                                                          <tbody>
-                                                            <tr>
-                                                              <td style="padding:0px;margin:0px;border-spacing:0;">
-                                                                <table class="wrapper" role="module" data-type="image" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="458mhi2ewF3dMJhBofj2MY">
-                                                                  <tbody>
-                                                                    <tr>
-                                                                      <td style="font-size:6px; line-height:10px; padding:0px 0px 0px 0px;" valign="top" align="right">
-                                                                        <img class="max-width" border="0" style="display:block; color:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif; font-size:16px; max-width:100% !important; width:100%; height:auto !important;" width="272" alt="" data-proportionally-constrained="true" data-responsive="true" src="http://cdn.mcauto-images-production.sendgrid.net/8697036c2156fec8/f1a18280-132f-48a0-bff2-097c6dcdb41b/649x649.png">
                                                                       </td>
                                                                     </tr>
                                                                   </tbody>
@@ -294,6 +270,7 @@
                                                     </tr>
                                                   </tbody>
                                                 </table>
+
                                                 <table class="module" role="module" data-type="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="7b4bbc6d-a441-45bc-b05b-a858d62a7aa4">
                                                   <tbody>
                                                     <tr>
